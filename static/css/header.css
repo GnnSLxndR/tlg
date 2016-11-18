@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Housearama";
+  src: local("O"), url("../fonts/Housearama-LeagueNight.woff") format("woff"), url("../fonts/Housearama-LeagueNight.eot"), url("../fonts/Housearama-LeagueNight?") format("embedded-opentype"), url("../fonts/Housearama-LeagueNight.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Strangelove";
+  src: local("O"), url("../fonts/strangelove-text.woff") format("woff"), url("../fonts/strangelove-text.eot"), url("../fonts/strangelove-text?") format("embedded-opentype"), url("../fonts/strangelove-text.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Rounded";
+  src: local("O"), url("../fonts/GothamRounded-Medium.woff") format("woff"), url("../fonts/GothamRounded-Medium.eot"), url("../fonts/GothamRounded-Medium?") format("embedded-opentype"), url("../fonts/GothamRounded-Medium.ttf") format("truetype");
+  font-style: normal;
+}
+.top_bar {
+  width: 30px;
+}
+header .container p {
+  color: #804286;
+}

@@ -1,0 +1,704 @@
+//The Little Gym fonts//
+
+@font-face {
+  font-family: "Housearama";
+  src: local("O"),
+  url("../fonts/Housearama-LeagueNight.woff") format("woff"),
+  url("../fonts/Housearama-LeagueNight.eot"),
+  url("../fonts/Housearama-LeagueNight?") format("embedded-opentype"),
+  url("../fonts/Housearama-LeagueNight.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Strangelove";
+  src: local("O"),
+  url("../fonts/strangelove-text.woff") format("woff"),
+  url("../fonts/strangelove-text.eot"),
+  url("../fonts/strangelove-text?") format("embedded-opentype"),
+  url("../fonts/strangelove-text.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Rounded Medium";
+  src: local("O"),
+  url("../fonts/GothamRounded-Medium.woff") format("woff"),
+  url("../fonts/GothamRounded-Medium.eot"),
+  url("../fonts/GothamRounded-Medium?") format("embedded-opentype"),
+  url("../fonts/GothamRounded-Medium.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Rounded Book";
+  src: local("O"),
+  url("../fonts/GothamRounded-Book.woff") format("woff"),
+  url("../fonts/GothamRounded-Book.eot"),
+  url("../fonts/GothamRounded-Book?") format("embedded-opentype"),
+  url("../fonts/GothamRounded-Book.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Rounded Bold";
+  src: local("O"),
+  url("../fonts/GothamRounded-Bold.woff") format("woff"),
+  url("../fonts/GothamRounded-Bold.eot"),
+  url("../fonts/GothamRounded-Bold?") format("embedded-opentype"),
+  url("../fonts/GothamRounded-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+// The Little Gym Colors//
+
+@color-purple: #814497;
+@color-turquesa: #69b6b4;
+@color-blue: #4e8fcc;
+@color-dark-blue: #53629a;
+@color-orange: #e6872b;
+@color-light-green: #bfd732;
+@blue-transparent:rgba(78, 143, 204, 0.1);
+
+
+//The Little Gym Titles//
+h1{
+  font-family: "Housearama";
+  color: @color-turquesa;
+
+}
+
+h2{
+  font-family: "Strangelove";
+  color: @color-light-green;
+  letter-spacing: 1pt;
+
+}
+h3{
+  font-family: "Housearama";
+  color: @color-turquesa;
+}
+h5{
+  font-family: "Strangelove";
+}
+h6{
+  color: #ffffff;
+  font-family: "Gotham Rounded Book";
+}
+p{
+  font-family: "Gotham Rounded Book";
+  color: @color-dark-blue;
+}
+
+.space{
+  height: 30px;
+}
+// The Little Gym Buttons
+
+.btn-tlg{
+  background-color: @color-orange;
+  border-radius: 0;
+  font-family: "Gotham Rounded Book";
+  text-transform: uppercase;
+  a{
+
+  }
+}
+//Top Navigation
+.top_bar{
+  height: 32px;
+  background-color: @color-purple;
+  width: 100%;
+  span{
+    color: white;
+    font-family: "Gotham Rounded Medium";
+  }
+  i{
+    color: #fff;
+  }
+  .encuentra i{
+    margin-right: 5px;
+  }
+}
+
+// Navigation bar
+.navbar-tlg{
+  background-color: transparent;
+  border-color: transparent;
+  #navbar{
+
+    ul {
+      padding-top: 10px;
+      li {
+        font-family: "Gotham Rounded Medium";
+        letter-spacing: 1px;
+        padding: 0 28px;
+
+        a{
+        color: #fff;
+      }
+      }
+  }
+  }
+  .navbar-toggle{
+    border-radius: 0;
+    border-color: transparent;
+    background-color: transparent;
+    border: none;
+
+  }
+}
+
+
+
+.navbar-brand-tlg{
+  img{
+    width: 70%;
+    margin-left: 15px;
+  }
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 100px;
+}
+
+.navbar-container {
+
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+  background-color: @color-purple;
+
+  img{
+    width: 45%;
+    margin: 0 0 0 14px;
+  }
+
+
+}
+
+.navbar-brand.fixed-theme {
+  font-size: 18px;
+
+}
+
+.navbar-container.fixed-theme {
+  padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
+
+}
+
+
+.fixed-theme{
+    #navbar{
+      ul{
+        padding-top: 0;
+      }
+    }
+}
+
+
+//Intro Image Style//
+.jumbotron {
+  position: relative;
+  margin-top: -68px;
+  margin-bottom: 0;
+  background: url('../img/home.png')center center;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 530px;
+  .circle {
+    position: absolute;
+    background-color: rgba(77, 143, 204, 0.87);
+    border-radius: 50%;
+    display: block;
+    width: 25%;
+    content: "";
+    height: 0;
+    padding-bottom: 25%;
+    text-align: center;
+    margin-top: 34px;
+    right: 80px;
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+      color: white;
+      float: left;
+      margin-top: -6.5em;
+      padding-top: 50%;
+      text-align: center;
+      width: 100%;
+      h2{
+        color: #fff;
+        font-size: 50pt;
+
+      }
+      p{
+        color: #fff;
+      }
+    }
+    .btn-tlg{
+      margin: 0;
+    }
+  }
+}
+.intro-text-box{
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  line-height: 35px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  .intro-first-line{
+    font-family: Housearama;
+    font-size: 18pt;
+    color: #ffffff;
+  }
+  .intro-second-line{
+    font-family: Strangelove;
+    font-size: 55pt;
+    color: #ffffff;
+  }
+}
+
+
+// This is not visible in Big devices//
+.try-tlg{
+  height: 120px;
+  background: rgba(78, 143, 204, 0.1);
+  h2{
+    margin-top: 7px;
+    margin-bottom: -2px;
+
+  }
+  p{
+    color: @color-blue;
+
+
+  }
+  .btn-tlg{
+    position: relative;
+    margin: 25pt 0;
+  }
+
+}
+
+// Home Intro Text//
+.home-intro-text-big{
+  padding: 50px;
+  h1{
+    font-size: 50pt;
+  }
+
+}
+.home-intro-text-small{
+  h1{
+    font-size: 20pt;
+  }
+
+}
+
+
+ // Image of Karate Class in The Little Gym
+.class-img {
+  position: relative;
+  .circle {
+    position: absolute;
+    background-color: rgba(105, 200, 197, 0.87);
+    border-radius: 50%;
+    display: block;
+    width: 30%;
+    content: "";
+    height: 0;
+    padding-bottom: 30%;
+    text-align: center;
+    left: 30px;
+    margin-top: 40px;
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+      color: white;
+      float: left;
+      margin-top: -3.5em;
+      padding-top: 50%;
+      text-align: center;
+      width: 100%;
+      h2{
+        color: #fff;
+        font-size: 16pt;
+
+      }
+    }
+    .circle-text-md{
+      h2{
+        font-size: 60pt;
+        margin-top: -0.5em;
+
+      }
+      p{
+        padding: 0px 50px;
+        color: #fff;
+      }
+    }
+    .btn-tlg{
+      margin: 0;
+    }
+  }
+
+}
+
+
+
+.party-img{
+  position: relative;
+  .circle {
+    position: absolute;
+    background-color: rgba(253, 200, 6, 0.87);
+    border-radius: 50%;
+    display: block;
+    width: 30%;
+    content: "";
+    height: 0;
+    padding-bottom: 30%;
+    text-align: center;
+    right: 47px;
+    margin-top: 60px;
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+      color: white;
+      float: left;
+      margin-top: -3.5em;
+      padding-top: 50%;
+      text-align: center;
+      width: 100%;
+      h2{
+        color: #fff;
+        font-size: 16pt;
+
+      }
+    }
+    .circle-text-md{
+      h2{
+        font-size: 60pt;
+        margin-top: -0.5em;
+
+      }
+      p{
+        padding: 0px 50px;
+        color: #fff;
+      }
+    }
+    .btn-tlg{
+      margin: 0;
+    }
+  }
+
+}
+.camp-img{
+  position: relative;
+  .circle {
+    position: absolute;
+    background-color: #5262ab;
+    border-radius: 50%;
+    display: block;
+    width: 30%;
+    content: "";
+    height: 0;
+    padding-bottom: 30%;
+    text-align: center;
+    left: 10px;
+    margin-top: 30px;
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+      color: white;
+      float: left;
+      margin-top: -3.5em;
+      padding-top: 50%;
+      text-align: center;
+      width: 100%;
+      h2{
+        color: #fff;
+        font-size: 16pt;
+
+      }
+    }
+    .circle-text-md{
+      h2{
+        font-size: 50pt;
+        margin-top: -0.5em;
+
+      }
+      p{
+        padding: 0px 50px;
+        color: #fff;
+      }
+    }
+    .btn-tlg{
+      margin: 0;
+    }
+  }
+
+}
+
+.class-intro-img{
+  position: relative;
+  .circle {
+    position: absolute;
+    background-color: #0777bc;
+    border-radius: 50%;
+    display: block;
+    width: 30%;
+    content: "";
+    height: 0;
+    padding-bottom: 30%;
+    text-align: center;
+    left: 10px;
+    margin-top: 30px;
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+      color: white;
+      float: left;
+      margin-top: -3.5em;
+      padding-top: 50%;
+      text-align: center;
+      width: 100%;
+      h2{
+        color: #fff;
+        font-size: 16pt;
+
+      }
+    }
+    .circle-text-md{
+      h2{
+        font-size: 50pt;
+        margin-top: -0.5em;
+
+      }
+      p{
+        padding: 0px 50px;
+        color: #fff;
+      }
+    }
+    .btn-tlg{
+      margin: 0;
+    }
+  }
+
+}
+//Our classes Template
+
+.our-classes{
+  margin-top: -68px;
+  width: 100%;
+  position: relative;
+    h2{
+      position: absolute;
+      bottom: 0;
+      left: 45%;
+      text-align: center;
+      color: #ffffff;
+    }
+
+}
+.classes-nav{
+  background: @blue-transparent;
+  height: 50px;
+
+  ul{
+    padding: 12px 0;
+    li{
+      font-family: "Gotham Rounded Book";
+      color: @color-blue;
+
+    }
+  }
+}
+.classes-intro-text{
+
+}
+.tlg-classes-img{
+  padding: 0;
+  margin: 0;
+}
+.parent-child-text{
+  background-color: @blue-transparent;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+//Carousel for Big devices//
+#carousel-comments{
+  .carousel-inner{
+    .comments-tlg{
+      width: 50%;
+      position: absolute;
+      top: 0;
+      text-shadow: none;
+      h1{
+        color: @color-purple;
+      }
+      h5{
+        color: @color-purple;
+        font-size: 30pt;
+
+      }
+      .comment-bubble{
+        width: 50%;
+        padding: 74px 2px;
+
+        p{
+          color: @color-purple;
+          font-family: "Strangelove";
+        }
+      }
+
+    }
+  }
+}
+
+//Carousel for small devices//
+#carousel-comments{
+  .carousel-inner{
+    .comments-tlg{
+      width: 50%;
+      position: absolute;
+      top: 0;
+      text-shadow: none;
+      h1{
+        color: @color-purple;
+      }
+      h5{
+        color: @color-purple;
+        font-size: 30pt;
+
+      }
+      .comment-bubble{
+        width: 70%;
+        padding: 40px 2px;
+        margin-left: -18px;
+
+
+        p{
+          color: @color-purple;
+          font-family: "Strangelove";
+        }
+      }
+
+    }
+  }
+}
+//Horarios de The Little Gym//
+
+.calendar{
+  margin-top: -68px;
+  width: 100%;
+  position: relative;
+  h2{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    text-align: center;
+    color: #ffffff;
+  }
+
+}
+
+.panel-schedule{
+  .panel-heading{
+    h2{
+      font-size: 25pt;
+    }
+  }
+  .panel-body{
+    li{
+      list-style: none;
+      p.panel-schedule-headings{
+        font-family: "Gotham Rounded Bold";
+        text-transform: uppercase;
+      }
+    }
+
+  }
+ }
+
+//Quienes Somos//
+
+.about-us{
+  margin-top: -68px;
+  width: 100%;
+  position: relative;
+  h2.about-us-title{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .about-container{
+    img{
+      padding: 60px 0;
+    }
+  }
+}
+
+//Footer Style//
+
+.footer{
+
+  background-color: @color-purple;
+  .footer-box{
+    padding: 20px;
+    h2{
+      color: #fff;
+    }
+    p{
+      color: #fff;
+    }
+    a{
+      color: #fff;
+    }
+    .nav-footer{
+      li{
+        padding: 0 1px;
+        a{
+          font-family: "Gotham Rounded Book";
+        }
+      }
+    }
+  }
+  .legal-footer-nav{
+    margin-top: 20px;
+    li{
+      padding: 0 1px;
+      a{
+        font-family: "Gotham Rounded Book";
+      }
+    }
+  }
+}
