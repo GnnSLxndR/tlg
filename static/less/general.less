@@ -55,6 +55,7 @@
 @color-orange: #e6872b;
 @color-light-green: #bfd732;
 @blue-transparent:rgba(78, 143, 204, 0.1);
+@color-yellow: #fdc806;
 
 
 //The Little Gym Titles//
@@ -96,6 +97,8 @@ p{
   border-radius: 0;
   font-family: "Gotham Rounded Book";
   text-transform: uppercase;
+  border-color: transparent;
+  border: none;
   a{
 
   }
@@ -105,6 +108,7 @@ p{
   height: 32px;
   background-color: @color-purple;
   width: 100%;
+  padding-top: 5px;
   span{
     color: white;
     font-family: "Gotham Rounded Medium";
@@ -122,19 +126,34 @@ p{
   background-color: transparent;
   border-color: transparent;
   #navbar{
-
     ul {
-      padding-top: 10px;
       li {
         font-family: "Gotham Rounded Medium";
         letter-spacing: 1px;
-        padding: 0 28px;
-
+        margin: 10px 21px;
+        ::after{
+          content: "";
+          width: 12px;
+          height: 12px;
+          background:url("../img/asterisk.png")no-repeat;
+          display: inline-block;
+          position: absolute;
+          top: 18px;
+          right: -5px;
+        }
         a{
-        color: #fff;
+          color: #fff;
+        }
+        :hover{
+          color: @color-purple;
+        }
       }
+      :last-child{
+        ::after{
+          background: none;
+        }
       }
-  }
+    }
   }
   .navbar-toggle{
     border-radius: 0;
@@ -144,18 +163,14 @@ p{
 
   }
 }
-
-
-
 .navbar-brand-tlg{
-  img{
-    width: 70%;
-    margin-left: 15px;
-  }
   margin-top: -10px;
   margin-left: 10px;
+  img{
+    width: 60%;
+    margin-left: 0;
+  }
 }
-
 .navbar-default .navbar-toggle .icon-bar{
   background-color: #fff;
 }
@@ -171,10 +186,8 @@ body {
 .navbar-container {
 
 }
-
 .navbar.navbar-fixed-top.fixed-theme {
   background-color: @color-purple;
-
   img{
     width: 45%;
     margin: 0 0 0 14px;
@@ -197,7 +210,6 @@ body {
 .navbar.navbar-fixed-top.fixed-theme,
 .navbar-brand,
 .navbar-container{
-
   transition: 0.8s;
   -webkit-transition:  0.8s;
 
@@ -205,11 +217,18 @@ body {
 
 
 .fixed-theme{
-    #navbar{
-      ul{
-        padding-top: 0;
+  #navbar{
+    ul{
+      padding-top: 0;
+      li{
+        a{
+        }
+        :hover{
+          color: @color-light-green;
+        }
       }
     }
+  }
 }
 
 
@@ -316,7 +335,7 @@ body {
 }
 
 
- // Image of Karate Class in The Little Gym
+// Image of Karate Class in The Little Gym
 .class-img {
   position: relative;
   .circle {
@@ -394,6 +413,7 @@ body {
       h2{
         color: #fff;
         font-size: 16pt;
+
 
       }
     }
@@ -515,13 +535,16 @@ body {
   margin-top: -68px;
   width: 100%;
   position: relative;
-    h2{
-      position: absolute;
-      bottom: 0;
-      left: 45%;
-      text-align: center;
-      color: #ffffff;
-    }
+  h2{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    color: #fff;
+  }
 
 }
 .classes-nav{
@@ -549,6 +572,17 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
+  img{
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  a{
+    .btn-tlg{
+      position: relative;
+      margin-left: 10px;
+    }
+  }
 }
 
 
@@ -556,12 +590,13 @@ body {
 #carousel-comments{
   .carousel-inner{
     .comments-tlg{
-      width: 50%;
+      width: 100%;
       position: absolute;
       top: 0;
       text-shadow: none;
       h1{
         color: @color-purple;
+
       }
       h5{
         color: @color-purple;
@@ -620,6 +655,120 @@ body {
   width: 100%;
   position: relative;
   h2{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    color: #fff;
+  }
+
+}
+
+.panel-schedule{
+  border: none;
+  border-radius: 0;
+  .panel-heading{
+    border-radius: 0;
+    h2{
+      font-size: 25pt;
+    }
+  }
+  .panel-body{
+    padding: 0;
+    ul {
+      li {
+        list-style: none;
+        border-radius: 0;
+        p{
+          margin-bottom: 1px;
+        }
+        p.panel-schedule-headings {
+          font-family: "Gotham Rounded Bold";
+          text-transform: uppercase;
+
+        }
+      }
+      li:first-child{
+        border-left:15px solid rgba(105, 200, 197, 0.54);
+      }
+      li:nth-child(2){
+        border-left:15px solid rgba(236, 33, 142, 0.54);
+      }
+      li:nth-child(3){
+        border-left:15px solid rgba(236, 33, 142, 0.38);
+      }
+      li:nth-child(4){
+        border-left:15px solid rgba(236, 33, 142, 0.20);
+      }
+      li:nth-child(5){
+        border-left:15px solid rgba(193, 215, 49, 0.7);
+      }
+      li:nth-child(6){
+        border-left:15px solid rgba(236, 33, 142, 0.87);
+      }
+      li:last-child{
+        border-left: none;
+        border: none;
+        border-bottom: none;
+
+      }
+
+    }
+  }
+}
+
+// Party Page Styles
+.parties{
+  margin-top: -68px;
+  width: 100%;
+  position: relative;
+  h2{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    color: #fff;
+  }
+
+}
+.party-container{
+  background-color: @color-yellow;
+  .party-text{
+    display: block;
+    margin: auto;
+    h2{
+      color: #fff;
+      font-size: 40pt;
+    }
+    h1{
+      color: #fff;
+      font-size: 20pt;
+
+    }
+
+  }
+
+  img{
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding: 30px 0;
+  }
+  p{
+    color: #fff;
+  }
+}
+.camp{
+  margin-top: -68px;
+  width: 100%;
+  position: relative;
+  h2{
     position: absolute;
     bottom: 0;
     left: 45%;
@@ -628,25 +777,6 @@ body {
   }
 
 }
-
-.panel-schedule{
-  .panel-heading{
-    h2{
-      font-size: 25pt;
-    }
-  }
-  .panel-body{
-    li{
-      list-style: none;
-      p.panel-schedule-headings{
-        font-family: "Gotham Rounded Bold";
-        text-transform: uppercase;
-      }
-    }
-
-  }
- }
-
 //Quienes Somos//
 
 .about-us{
@@ -700,5 +830,49 @@ body {
         font-family: "Gotham Rounded Book";
       }
     }
+  }
+}
+
+//Media queries
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .navbar-tlg {
+    #navbar {
+      ul {
+        li {
+          margin: 0;
+
+        }
+      }
+    }
+  }
+  .intro-text-box{
+    bottom: 220px;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  .navbar-tlg {
+    #navbar {
+      ul {
+        li {
+          margin: 10px -10px;
+          ::after{
+            background: none;
+          }
+
+        }
+      }
+    }
+  }
+  .intro-text-box{
+    bottom: 220px;
   }
 }

@@ -55,11 +55,14 @@ p {
   border-radius: 0;
   font-family: "Gotham Rounded Book";
   text-transform: uppercase;
+  border-color: transparent;
+  border: none;
 }
 .top_bar {
   height: 32px;
   background-color: #814497;
   width: 100%;
+  padding-top: 5px;
 }
 .top_bar span {
   color: white;
@@ -75,16 +78,29 @@ p {
   background-color: transparent;
   border-color: transparent;
 }
-.navbar-tlg #navbar ul {
-  padding-top: 10px;
-}
 .navbar-tlg #navbar ul li {
   font-family: "Gotham Rounded Medium";
   letter-spacing: 1px;
-  padding: 0 28px;
+  margin: 10px 21px;
+}
+.navbar-tlg #navbar ul li ::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: url("../img/asterisk.png") no-repeat;
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: -5px;
 }
 .navbar-tlg #navbar ul li a {
   color: #fff;
+}
+.navbar-tlg #navbar ul li :hover {
+  color: #814497;
+}
+.navbar-tlg #navbar ul :last-child ::after {
+  background: none;
 }
 .navbar-tlg .navbar-toggle {
   border-radius: 0;
@@ -97,8 +113,8 @@ p {
   margin-left: 10px;
 }
 .navbar-brand-tlg img {
-  width: 70%;
-  margin-left: 15px;
+  width: 60%;
+  margin-left: 0;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
@@ -134,6 +150,9 @@ body {
 }
 .fixed-theme #navbar ul {
   padding-top: 0;
+}
+.fixed-theme #navbar ul li :hover {
+  color: #bfd732;
 }
 .jumbotron {
   position: relative;
@@ -395,11 +414,14 @@ body {
   position: relative;
 }
 .our-classes h2 {
+  display: block;
   position: absolute;
   bottom: 0;
-  left: 45%;
-  text-align: center;
-  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: #fff;
 }
 .classes-nav {
   background: rgba(78, 143, 204, 0.1);
@@ -422,8 +444,16 @@ body {
   max-width: 100%;
   height: auto;
 }
+.parent-child-text img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.parent-child-text a .btn-tlg {
+  position: relative;
+  margin-left: 10px;
+}
 #carousel-comments .carousel-inner .comments-tlg {
-  width: 50%;
+  width: 100%;
   position: absolute;
   top: 0;
   text-shadow: none;
@@ -471,21 +501,112 @@ body {
   position: relative;
 }
 .calendar h2 {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+.panel-schedule {
+  border: none;
+  border-radius: 0;
+}
+.panel-schedule .panel-heading {
+  border-radius: 0;
+}
+.panel-schedule .panel-heading h2 {
+  font-size: 25pt;
+}
+.panel-schedule .panel-body {
+  padding: 0;
+}
+.panel-schedule .panel-body ul li {
+  list-style: none;
+  border-radius: 0;
+}
+.panel-schedule .panel-body ul li p {
+  margin-bottom: 1px;
+}
+.panel-schedule .panel-body ul li p.panel-schedule-headings {
+  font-family: "Gotham Rounded Bold";
+  text-transform: uppercase;
+}
+.panel-schedule .panel-body ul li:first-child {
+  border-left: 15px solid rgba(105, 200, 197, 0.54);
+}
+.panel-schedule .panel-body ul li:nth-child(2) {
+  border-left: 15px solid rgba(236, 33, 142, 0.54);
+}
+.panel-schedule .panel-body ul li:nth-child(3) {
+  border-left: 15px solid rgba(236, 33, 142, 0.38);
+}
+.panel-schedule .panel-body ul li:nth-child(4) {
+  border-left: 15px solid rgba(236, 33, 142, 0.2);
+}
+.panel-schedule .panel-body ul li:nth-child(5) {
+  border-left: 15px solid rgba(193, 215, 49, 0.7);
+}
+.panel-schedule .panel-body ul li:nth-child(6) {
+  border-left: 15px solid rgba(236, 33, 142, 0.87);
+}
+.panel-schedule .panel-body ul li:last-child {
+  border-left: none;
+  border: none;
+  border-bottom: none;
+}
+.parties {
+  margin-top: -68px;
+  width: 100%;
+  position: relative;
+}
+.parties h2 {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+.party-container {
+  background-color: #fdc806;
+}
+.party-container .party-text {
+  display: block;
+  margin: auto;
+}
+.party-container .party-text h2 {
+  color: #fff;
+  font-size: 40pt;
+}
+.party-container .party-text h1 {
+  color: #fff;
+  font-size: 20pt;
+}
+.party-container img {
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding: 30px 0;
+}
+.party-container p {
+  color: #fff;
+}
+.camp {
+  margin-top: -68px;
+  width: 100%;
+  position: relative;
+}
+.camp h2 {
   position: absolute;
   bottom: 0;
   left: 45%;
   text-align: center;
   color: #ffffff;
-}
-.panel-schedule .panel-heading h2 {
-  font-size: 25pt;
-}
-.panel-schedule .panel-body li {
-  list-style: none;
-}
-.panel-schedule .panel-body li p.panel-schedule-headings {
-  font-family: "Gotham Rounded Bold";
-  text-transform: uppercase;
 }
 .about-us {
   margin-top: -68px;
@@ -531,4 +652,23 @@ body {
 }
 .footer .legal-footer-nav li a {
   font-family: "Gotham Rounded Book";
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .navbar-tlg #navbar ul li {
+    margin: 0;
+  }
+  .intro-text-box {
+    bottom: 220px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .navbar-tlg #navbar ul li {
+    margin: 10px -10px;
+  }
+  .navbar-tlg #navbar ul li ::after {
+    background: none;
+  }
+  .intro-text-box {
+    bottom: 220px;
+  }
 }

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49fb4c60-5198-46f1-8087-dfe3cefe0e92" name="Default" comment="" />
+    <list default="true" id="49fb4c60-5198-46f1-8087-dfe3cefe0e92" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/general.css" afterPath="$PROJECT_DIR$/static/css/general.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/less/general.less" afterPath="$PROJECT_DIR$/static/less/general.less" />
+    </list>
     <ignored path="tlg.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,92 +26,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="83" column="110" selection-start-line="79" selection-start-column="20" selection-end-line="83" selection-end-column="110" />
-              <folding>
-                <element signature="e#1379#1385#0" expanded="true" />
-                <element signature="e#1387#1393#0" expanded="true" />
-                <element signature="e#1969#1975#0" expanded="true" />
-                <element signature="e#1978#1984#0" expanded="true" />
-                <element signature="e#2012#2018#0" expanded="true" />
-                <element signature="e#2021#2027#0" expanded="true" />
-                <element signature="e#2047#2053#0" expanded="true" />
-                <element signature="e#2056#2062#0" expanded="true" />
-                <element signature="e#13041#13047#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="general.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/less/general.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="664" column="22" selection-start-line="664" selection-start-column="22" selection-end-line="664" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="horarios.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/horarios.html">
+      <file leaf-file-name="general.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/less/general.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="83" column="86" selection-start-line="83" selection-start-column="86" selection-end-line="83" selection-end-column="86" />
-              <folding>
-                <element signature="e#1399#1405#0" expanded="true" />
-                <element signature="e#1407#1413#0" expanded="true" />
-                <element signature="e#2025#2031#0" expanded="true" />
-                <element signature="e#2034#2040#0" expanded="true" />
-                <element signature="e#2068#2074#0" expanded="true" />
-                <element signature="e#2077#2083#0" expanded="true" />
-                <element signature="e#2103#2109#0" expanded="true" />
-                <element signature="e#2112#2118#0" expanded="true" />
-                <element signature="e#18437#18443#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clases.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clases.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="83" column="110" selection-start-line="83" selection-start-column="110" selection-end-line="83" selection-end-column="110" />
-              <folding>
-                <element signature="e#1399#1405#0" expanded="true" />
-                <element signature="e#1407#1413#0" expanded="true" />
-                <element signature="e#2025#2031#0" expanded="true" />
-                <element signature="e#2034#2040#0" expanded="true" />
-                <element signature="e#2068#2074#0" expanded="true" />
-                <element signature="e#2077#2083#0" expanded="true" />
-                <element signature="e#2103#2109#0" expanded="true" />
-                <element signature="e#2112#2118#0" expanded="true" />
-                <element signature="e#12832#12838#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quienes-somos.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/quienes-somos.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
-              <folding>
-                <element signature="e#1399#1405#0" expanded="true" />
-                <element signature="e#1407#1413#0" expanded="true" />
-                <element signature="e#2025#2031#0" expanded="true" />
-                <element signature="e#2034#2040#0" expanded="true" />
-                <element signature="e#2068#2074#0" expanded="true" />
-                <element signature="e#2077#2083#0" expanded="true" />
-                <element signature="e#2103#2109#0" expanded="true" />
-                <element signature="e#2112#2118#0" expanded="true" />
-                <element signature="e#11230#11236#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,6 +55,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -130,8 +68,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/clases.html" />
         <option value="$PROJECT_DIR$/horarios.html" />
-        <option value="$PROJECT_DIR$/static/less/general.less" />
         <option value="$PROJECT_DIR$/quienes-somos.html" />
+        <option value="$PROJECT_DIR$/static/less/general.less" />
       </list>
     </option>
   </component>
@@ -143,7 +81,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
+    <option name="x" value="38" />
     <option name="y" value="23" />
     <option name="width" value="1521" />
     <option name="height" value="940" />
@@ -173,6 +111,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,38 +159,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../platypuswebiste/wp-content/themes/platypustheme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -335,11 +255,12 @@
       <workItem from="1478006983803" duration="32297000" />
       <workItem from="1478113704004" duration="1069000" />
       <workItem from="1478116536846" duration="107698000" />
+      <workItem from="1479847637899" duration="650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144356000" />
+    <option name="totallyTimeSpent" value="145006000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,13 +272,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="23" width="1521" height="940" extended-state="0" />
-    <editor active="true" />
+    <frame x="38" y="23" width="1521" height="940" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23333333" sideWeight="0.48651686" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23333333" sideWeight="0.48651686" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32429245" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -369,6 +289,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -410,6 +331,75 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="110" selection-start-line="79" selection-start-column="20" selection-end-line="83" selection-end-column="110" />
+          <folding>
+            <element signature="e#1379#1385#0" expanded="true" />
+            <element signature="e#1387#1393#0" expanded="true" />
+            <element signature="e#1969#1975#0" expanded="true" />
+            <element signature="e#1978#1984#0" expanded="true" />
+            <element signature="e#2012#2018#0" expanded="true" />
+            <element signature="e#2021#2027#0" expanded="true" />
+            <element signature="e#2047#2053#0" expanded="true" />
+            <element signature="e#2056#2062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/less/general.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9960">
+          <caret line="664" column="22" selection-start-line="664" selection-start-column="22" selection-end-line="664" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horarios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="86" selection-start-line="83" selection-start-column="86" selection-end-line="83" selection-end-column="86" />
+          <folding>
+            <element signature="e#1399#1405#0" expanded="true" />
+            <element signature="e#1407#1413#0" expanded="true" />
+            <element signature="e#2025#2031#0" expanded="true" />
+            <element signature="e#2034#2040#0" expanded="true" />
+            <element signature="e#2068#2074#0" expanded="true" />
+            <element signature="e#2077#2083#0" expanded="true" />
+            <element signature="e#2103#2109#0" expanded="true" />
+            <element signature="e#2112#2118#0" expanded="true" />
+            <element signature="e#18437#18443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clases.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="110" selection-start-line="83" selection-start-column="110" selection-end-line="83" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quienes-somos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1399#1405#0" expanded="true" />
+            <element signature="e#1407#1413#0" expanded="true" />
+            <element signature="e#2025#2031#0" expanded="true" />
+            <element signature="e#2034#2040#0" expanded="true" />
+            <element signature="e#2068#2074#0" expanded="true" />
+            <element signature="e#2077#2083#0" expanded="true" />
+            <element signature="e#2103#2109#0" expanded="true" />
+            <element signature="e#2112#2118#0" expanded="true" />
+            <element signature="e#11230#11236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
@@ -421,7 +411,6 @@
             <element signature="e#2021#2027#0" expanded="true" />
             <element signature="e#2047#2053#0" expanded="true" />
             <element signature="e#2056#2062#0" expanded="true" />
-            <element signature="e#13041#13047#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -447,7 +436,6 @@
             <element signature="e#2021#2027#0" expanded="true" />
             <element signature="e#2047#2053#0" expanded="true" />
             <element signature="e#2056#2062#0" expanded="true" />
-            <element signature="e#13041#13047#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -473,7 +461,6 @@
             <element signature="e#2021#2027#0" expanded="true" />
             <element signature="e#2047#2053#0" expanded="true" />
             <element signature="e#2056#2062#0" expanded="true" />
-            <element signature="e#13041#13047#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -507,7 +494,6 @@
             <element signature="e#2021#2027#0" expanded="true" />
             <element signature="e#2047#2053#0" expanded="true" />
             <element signature="e#2056#2062#0" expanded="true" />
-            <element signature="e#13041#13047#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -526,18 +512,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../platypuswebiste/wp-content/themes/platypustheme/css/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../platypuswebiste/wp-content/themes/platypustheme/css/less/variables.less" />
     <entry file="file://$PROJECT_DIR$/static/fonts/Housearama-LeagueNight.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,10 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,13 +547,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="83" column="110" selection-start-line="79" selection-start-column="20" selection-end-line="83" selection-end-column="110" />
+          <folding>
+            <element signature="e#1379#1385#0" expanded="true" />
+            <element signature="e#1387#1393#0" expanded="true" />
+            <element signature="e#1969#1975#0" expanded="true" />
+            <element signature="e#1978#1984#0" expanded="true" />
+            <element signature="e#2012#2018#0" expanded="true" />
+            <element signature="e#2021#2027#0" expanded="true" />
+            <element signature="e#2047#2053#0" expanded="true" />
+            <element signature="e#2056#2062#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/horarios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="15">
           <caret line="83" column="86" selection-start-line="83" selection-start-column="86" selection-end-line="83" selection-end-column="86" />
           <folding>
             <element signature="e#1399#1405#0" expanded="true" />
@@ -594,46 +585,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="83" column="110" selection-start-line="79" selection-start-column="20" selection-end-line="83" selection-end-column="110" />
-          <folding>
-            <element signature="e#1379#1385#0" expanded="true" />
-            <element signature="e#1387#1393#0" expanded="true" />
-            <element signature="e#1969#1975#0" expanded="true" />
-            <element signature="e#1978#1984#0" expanded="true" />
-            <element signature="e#2012#2018#0" expanded="true" />
-            <element signature="e#2021#2027#0" expanded="true" />
-            <element signature="e#2047#2053#0" expanded="true" />
-            <element signature="e#2056#2062#0" expanded="true" />
-            <element signature="e#13041#13047#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clases.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="15">
           <caret line="83" column="110" selection-start-line="83" selection-start-column="110" selection-end-line="83" selection-end-column="110" />
-          <folding>
-            <element signature="e#1399#1405#0" expanded="true" />
-            <element signature="e#1407#1413#0" expanded="true" />
-            <element signature="e#2025#2031#0" expanded="true" />
-            <element signature="e#2034#2040#0" expanded="true" />
-            <element signature="e#2068#2074#0" expanded="true" />
-            <element signature="e#2077#2083#0" expanded="true" />
-            <element signature="e#2103#2109#0" expanded="true" />
-            <element signature="e#2112#2118#0" expanded="true" />
-            <element signature="e#12832#12838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/less/general.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="664" column="22" selection-start-line="664" selection-start-column="22" selection-end-line="664" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -653,6 +608,30 @@
             <element signature="e#2112#2118#0" expanded="true" />
             <element signature="e#11230#11236#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/less/general.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
