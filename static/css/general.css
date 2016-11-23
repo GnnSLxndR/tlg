@@ -478,26 +478,24 @@ body {
   font-family: "Strangelove";
 }
 #carousel-comments-sm .carousel-inner .comments-tlg-sm {
-  width: 50%;
+  width: 70%;
   position: absolute;
-  top: 0;
+  top: -35px;
   text-shadow: none;
 }
 #carousel-comments-sm .carousel-inner .comments-tlg-sm h1 {
   color: #814497;
+  font-size: 15pt;
 }
 #carousel-comments-sm .carousel-inner .comments-tlg-sm h5 {
   color: #814497;
-  font-size: 30pt;
+  font-size: 15pt;
 }
 #carousel-comments-sm .carousel-inner .comments-tlg-sm .comment-bubble-sm {
-  width: 70%;
-  padding: 40px 2px;
-  margin-left: -18px;
-}
-#carousel-comments-sm .carousel-inner .comments-tlg-sm .comment-bubble-sm p {
-  color: #814497;
-  font-family: "Strangelove";
+  width: 60%;
+  margin-left: 45px;
+  float: left;
+  text-align: left;
 }
 .calendar {
   margin-top: -68px;

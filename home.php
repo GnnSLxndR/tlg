@@ -167,7 +167,46 @@ o las vacaciones.</p>
     </a>
 </div>
 
+<!--Small Carousel-->
+<div id="carousel-comments-sm" class="carousel slide hidden-md hidden-lg" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="<?php bloginfo('template_url'); ?>/static/img/comments-small.png" alt="The Little Gym">
+            <div class="carousel-caption comments-tlg-sm">
+                <h1>¿Que está diciendo la gente?</h1>
+                <div class="comment-bubble-sm">
+                    <h5>
+                        “Santi solía ser un niño inseguro, en The Little Gym lo he visto hacer cosas que nunca imaginé”
+                    </h5>
+                </div>
 
+            </div>
+        </div>
+        <div class="item">
+            <img src="<?php bloginfo('template_url'); ?>/static/img/comments-small.png" alt="The Little Gym">
+            <div class="carousel-caption comments-tlg-sm">
+                <h1>¿Que está diciendo la gente?</h1>
+                <div class="comment-bubble-sm">
+                    <h5>
+                        "Me encanta The Little Gym"
+                    </h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-comments" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-comments" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+    </a>
+</div>
 
 <div class="class-intro-img">
     <div class="container-fluid">
