@@ -477,25 +477,25 @@ body {
   color: #814497;
   font-family: "Strangelove";
 }
-#carousel-comments .carousel-inner .comments-tlg {
+#carousel-comments-sm .carousel-inner .comments-tlg-sm {
   width: 50%;
   position: absolute;
   top: 0;
   text-shadow: none;
 }
-#carousel-comments .carousel-inner .comments-tlg h1 {
+#carousel-comments-sm .carousel-inner .comments-tlg-sm h1 {
   color: #814497;
 }
-#carousel-comments .carousel-inner .comments-tlg h5 {
+#carousel-comments-sm .carousel-inner .comments-tlg-sm h5 {
   color: #814497;
   font-size: 30pt;
 }
-#carousel-comments .carousel-inner .comments-tlg .comment-bubble {
+#carousel-comments-sm .carousel-inner .comments-tlg-sm .comment-bubble-sm {
   width: 70%;
   padding: 40px 2px;
   margin-left: -18px;
 }
-#carousel-comments .carousel-inner .comments-tlg .comment-bubble p {
+#carousel-comments-sm .carousel-inner .comments-tlg-sm .comment-bubble-sm p {
   color: #814497;
   font-family: "Strangelove";
 }
@@ -628,7 +628,10 @@ body {
   padding: 60px 0;
 }
 .footer {
+  background-image: url("../img/pespunteado.png");
+  background-repeat: repeat-x;
   background-color: #814497;
+  background-position: 0 15px;
 }
 .footer .footer-box {
   padding: 20px;
