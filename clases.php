@@ -14,7 +14,7 @@
         <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2 class="">nuestras clases</h2>
+                <h2 class="text-center">Nuestras clases</h2>
             </div>
         </div>
         </div>
@@ -46,7 +46,7 @@
 </div>
 
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-sm-6 tlg-classes-img">
                 <img src="<?php bloginfo('template_url'); ?>/static/img/parent-child.png" class="img-responsive">
