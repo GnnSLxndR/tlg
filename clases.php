@@ -110,7 +110,7 @@
 <div class="space"></div><!--This is white space-->
 
 
-<!--Comments Big Carousel-->
+<!--Comments Big Carousel--->
 <div id="carousel-comments" class="carousel slide hidden-sm hidden-xs" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -129,16 +129,19 @@
         <div class="item">
             <img src="<?php bloginfo('template_url'); ?>/static/img/comments.png" alt="The Little Gym">
             <div class="carousel-caption comments-tlg">
-            <h1>¿Que está diciendo la gente?</h1>
-            <div class="comment-bubble">
-                <h5 class="text-left">
-                    “Santi solía ser un niño inseguro, en The Little Gym lo he visto hacer cosas que nunca imaginé”
-                </h5>
-            </div>
+                <h1>¿Que está diciendo la gente?</h1>
+                <div class="comment-bubble">
+                    <h5 class="text-left">
+                        “Santi solía ser un niño inseguro, en The Little Gym lo he visto hacer cosas que nunca imaginé”
+                    </h5>
+                </div>
 
-        </div>
+            </div>
         </div>
     </div>
+
+
+
 
     <!-- Controls -->
     <a class="left carousel-control" href="#carousel-comments" role="button" data-slide="prev">
@@ -151,30 +154,30 @@
     </a>
 </div>
 
-<!--Comments Small Carousel Falta por desarrollar-->
-<div id="carousel-comments" class="carousel slide hidden-md hidden-lg" data-ride="carousel">
+<!--Small Carousel-->
+<div id="carousel-comments-sm" class="carousel slide hidden-md hidden-lg" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="<?php bloginfo('template_url'); ?>/static/img/comments-small.png" alt="The Little Gym">
-            <div class="carousel-caption comments-tlg">
-                <p>¿Que está diciendo la gente?</p>
-                <div class="comment-bubble">
-                    <p class="text-left">
-                        “Me encantan sus clase porque he podido notar los avances de Miguel, tanto físicos como sociales.”
-                    </p>
+            <img src="<?php bloginfo('template_url'); ?>/static/img/comments.png" alt="The Little Gym">
+            <div class="carousel-caption comments-tlg-sm">
+                <h1>¿Que está diciendo la gente?</h1>
+                <div class="comment-bubble-sm">
+                    <h5>
+                        “Santi solía ser un niño inseguro, en The Little Gym lo he visto hacer cosas que nunca imaginé”
+                    </h5>
                 </div>
 
             </div>
         </div>
         <div class="item">
-            <img src="<?php bloginfo('template_url'); ?>/static/img/comments-small.png" alt="The Little Gym">
-            <div class="carousel-caption comments-tlg">
-                <p>¿Que está diciendo la gente?</p>
-                <div class="comment-bubble">
-                    <p class="text-left">
-                        “Santi solía ser un niño inseguro, en The Little Gym lo he visto hacer cosas que nunca imaginé”
-                    </p>
+            <img src="<?php bloginfo('template_url'); ?>/static/img/comments.png" alt="The Little Gym">
+            <div class="carousel-caption comments-tlg-sm">
+                <h1>¿Que está diciendo la gente?</h1>
+                <div class="comment-bubble-sm">
+                    <h5>
+                        "Me encanta The Little Gym"
+                    </h5>
                 </div>
 
             </div>
