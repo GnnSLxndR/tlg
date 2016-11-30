@@ -136,7 +136,7 @@ o las vacaciones.</p>
                 <h1>¿Que está diciendo la gente?</h1>
                 <div class="comment-bubble">
                     <h5 class="text-left">
-                        “Me encantan sus clase porque he podido notar los avances de Miguel, tanto físicos como sociales.”
+                        “Me encantan sus clases porque he podido notar los avances de Miguel, tanto físicos como sociales.”
                     </h5>
                 </div>
 

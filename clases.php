@@ -109,8 +109,7 @@
 
 <div class="space"></div><!--This is white space-->
 
-
-<!--Comments Big Carousel--->
+<!--Comments Big Carousel-->
 <div id="carousel-comments" class="carousel slide hidden-sm hidden-xs" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -120,7 +119,7 @@
                 <h1>¿Que está diciendo la gente?</h1>
                 <div class="comment-bubble">
                     <h5 class="text-left">
-                        “Me encantan sus clase porque he podido notar los avances de Miguel, tanto físicos como sociales.”
+                        “Me encantan sus clases porque he podido notar los avances de Miguel, tanto físicos como sociales.”
                     </h5>
                 </div>
 
@@ -140,9 +139,6 @@
         </div>
     </div>
 
-
-
-
     <!-- Controls -->
     <a class="left carousel-control" href="#carousel-comments" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -159,7 +155,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="<?php bloginfo('template_url'); ?>/static/img/comments.png" alt="The Little Gym">
+            <img src="<?php bloginfo('template_url'); ?>/static/img/comments-small.png" alt="The Little Gym">
             <div class="carousel-caption comments-tlg-sm">
                 <h1>¿Que está diciendo la gente?</h1>
                 <div class="comment-bubble-sm">
@@ -171,7 +167,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="<?php bloginfo('template_url'); ?>/static/img/comments.png" alt="The Little Gym">
+            <img src="<?php bloginfo('template_url'); ?>/static/img/comments-small.png" alt="The Little Gym">
             <div class="carousel-caption comments-tlg-sm">
                 <h1>¿Que está diciendo la gente?</h1>
                 <div class="comment-bubble-sm">
@@ -194,6 +190,7 @@
         <span class="sr-only"></span>
     </a>
 </div>
+
 
 <!--Classes Template -->
 <!-- Archivo de pié global de Wordpress -->
