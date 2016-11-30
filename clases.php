@@ -58,7 +58,7 @@
                     <p>Desde bebés hasta infantes, nuestras clases Padre/Hijo en Bogotá promueven el desarrollo progresivo y ofrecen un cimiento fuerte para los primeros –y críticos—tres años de vida de tu hijo.</p>
                 </div>
                 <div class="col-sm-3">
-                        barrita
+                    <img src="<?php bloginfo('template_url'); ?>/static/img/parent-child-bar.png" class="center-block hidden-lg hidden-md">
                 </div>
             </div>
             <a href="#" class="btn btn-primary btn-sm btn-tlg">Detalles y horario</a>
@@ -67,22 +67,23 @@
     </div>
     <div class="space"></div><!--This is white space-->
     <div class="row">
+        <div class="col-sm-6 tlg-classes-img">
+                    <img src="<?php bloginfo('template_url'); ?>/static/img/pre-kinder.png" class="img-responsive">
+                </div>
         <div class="col-sm-6 parent-child-text">
             <div class="row">
                 <div class="col-sm-9">
-                    <h1>Un comienzo perfecto</h1>
-                    <p>Desde bebés hasta infantes, nuestras clases Padre/Hijo en Bogotá promueven el desarrollo progresivo y ofrecen un cimiento fuerte para los primeros –y críticos—tres años de vida de tu hijo.</p>
+                    <h1>Clases de Deporte para niños en Bogotá</h1>
+                        <p>En The Little Gym, nuestro programa de deporte para niños de pre-escolar y kinder ha sido diseñado especialmente para ayudar a tu hijo a canalizar toda esa energía y alcanzar metas en su desarrollo.</p>
                 </div>
                 <div class="col-sm-3">
-                    barrita
+                    <img src="<?php bloginfo('template_url'); ?>/static/img/prekinder-bar.png" class="center-block hidden-md hidden-lg">
                 </div>
             </div>
 
             <a href="#" class="btn btn-primary btn-sm btn-tlg">Detalles y horario</a>
         </div>
-        <div class="col-sm-6 tlg-classes-img">
-            <img src="<?php bloginfo('template_url'); ?>/static/img/pre-kinder.png" class="img-responsive">
-        </div>
+
     </div>
     <div class="space"></div><!--This is white space-->
     <div class="row">
@@ -92,11 +93,11 @@
         <div class="col-sm-6 parent-child-text">
             <div class="row">
                 <div class="col-sm-9">
-                    <h1>Un comienzo perfecto</h1>
-                    <p>Desde bebés hasta infantes, nuestras clases Padre/Hijo en Bogotá promueven el desarrollo progresivo y ofrecen un cimiento fuerte para los primeros –y críticos—tres años de vida de tu hijo.</p>
+                     <h1>Un enfoque equilibrado</h1>
+                        <p>A cada niño se le ofrece la oportunidad de enfrentar nuevos retos que corresponden a su propio nivel de habilidad.</p>
                 </div>
                 <div class="col-sm-3">
-                    barrita
+                    <img src="<?php bloginfo('template_url'); ?>/static/img/grade-school-bar.png" class="center-block hidden-md hidden-lg">
                 </div>
             </div>
 
