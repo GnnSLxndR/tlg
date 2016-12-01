@@ -59,7 +59,7 @@
 
         </div>
         <!--Top Bar -->
-        <div id="header-container"class="container navbar-container">
+        <div id="header-container" class="container navbar-container">
 
 
             <div class="navbar-header">
@@ -69,7 +69,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a id="brand" class="navbar-brand navbar-brand-tlg" href="#">
+                <a id="brand" class="navbar-brand navbar-brand-tlg" href="<?php home_url(); ?>">
                     <img src="<?php bloginfo('template_url'); ?>/static/logo-tlg.png">
                 </a>
             </div>
@@ -90,3 +90,4 @@
             wp_nav_menu($args); ?><!--/.nav-collapse -->
         </div>
     </nav>
+</header>

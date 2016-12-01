@@ -38,7 +38,17 @@
 
 <script>
     $(document).ready(function(){
-
+        $('.navbar-toggle').on('click', function(){
+            
+            if($('.navbar-header').hasClass('back-red')){
+                console.log('test');
+                $('.navbar-header').removeClass('back-red');
+                $('.navbar-collapse').removeClass('back-red');
+            }else{
+                $('.navbar-header').addClass('back-red');
+                $('.navbar-collapse').addClass('back-red');
+            }
+        });
         /**
          * This object controls the nav bar. Implement the add and remove
          * action over the elements of the nav bar that we want to change.

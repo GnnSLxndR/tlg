@@ -604,17 +604,11 @@ body {
   position: relative;
 }
 .camp h2 {
-  display: block;
   position: absolute;
   bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  color: #fff;
-}
-.camp-container {
-  background-color: #eb244b;
+  left: 45%;
+  text-align: center;
+  color: #ffffff;
 }
 .about-us {
   margin-top: -68px;
