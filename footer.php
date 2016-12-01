@@ -40,13 +40,13 @@
     $(document).ready(function(){
         $('.navbar-toggle').on('click', function(){
             
-            if($('.navbar-header').hasClass('back-red')){
+            if($('.navbar-header').hasClass('click-button')){
                 console.log('test');
-                $('.navbar-header').removeClass('back-red');
-                $('.navbar-collapse').removeClass('back-red');
+                $('.navbar-header').removeClass('click-button');
+                $('.navbar-collapse').removeClass('click-button');
             }else{
-                $('.navbar-header').addClass('back-red');
-                $('.navbar-collapse').addClass('back-red');
+                $('.navbar-header').addClass('click-button');
+                $('.navbar-collapse').addClass('click-button');
             }
         });
         /**

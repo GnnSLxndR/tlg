@@ -677,3 +677,20 @@ body {
     bottom: 220px;
   }
 }
+/* pasarlo a less */
+@media only screen and (max-width: 670px) {
+    .navbar.navbar-tlg .navbar-container .navbar-collapse.in, .click-button{
+  background: white;
+}
+
+
+.navbar.navbar-tlg .navbar-container .navbar-collapse.click-button ul li{
+  border-top-style: dashed; border-top-width: 4px;
+  border-color: gray;
+  color: purple;
+}
+.navbar.navbar-tlg .navbar-container #navbar.navbar-collapse.click-button ul li a{
+  color: purple;
+}
+
+}
