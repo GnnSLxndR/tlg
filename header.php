@@ -70,7 +70,10 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a id="brand" class="navbar-brand navbar-brand-tlg" href="<?php home_url(); ?>">
-                    <img src="<?php bloginfo('template_url'); ?>/static/logo-tlg.png">
+                    <img class="white-logo" src="<?php bloginfo('template_url'); ?>/static/logo-tlg.png">
+                    <img src="<?php bloginfo('template_url'); ?>/static/logo-tlg-green.png" class="green-logo hidden-md hidden-lg">
+
+
                 </a>
             </div>
             <?php 

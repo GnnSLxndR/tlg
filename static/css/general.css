@@ -604,11 +604,17 @@ body {
   position: relative;
 }
 .camp h2 {
+  display: block;
   position: absolute;
   bottom: 0;
-  left: 45%;
-  text-align: center;
-  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+.camp-container {
+  background-color: #eb244b;
 }
 .about-us {
   margin-top: -68px;
@@ -679,18 +685,41 @@ body {
 }
 /* pasarlo a less */
 @media only screen and (max-width: 670px) {
-    .navbar.navbar-tlg .navbar-container .navbar-collapse.in, .click-button{
-  background: white;
-}
-
-
-.navbar.navbar-tlg .navbar-container .navbar-collapse.click-button ul li{
-  border-top-style: dashed; border-top-width: 4px;
-  border-color: gray;
-  color: purple;
-}
-.navbar.navbar-tlg .navbar-container #navbar.navbar-collapse.click-button ul li a{
-  color: purple;
-}
-
+  .navbar.navbar-tlg .navbar-container #brand .green-logo {
+    display: none;
+  }
+  .navbar.navbar-tlg .navbar-container .navbar-collapse.in,
+  .navbar.navbar-tlg .navbar-container .click-button {
+    background: white;
+    border: none;
+  }
+  .navbar.navbar-tlg .navbar-container .navbar-collapse.in .white-logo,
+  .navbar.navbar-tlg .navbar-container .click-button .white-logo {
+    display: none;
+  }
+  .navbar.navbar-tlg .navbar-container .navbar-collapse.in #brand .green-logo,
+  .navbar.navbar-tlg .navbar-container .click-button #brand .green-logo {
+    display: block;
+  }
+  .navbar.navbar-tlg .navbar-container .navbar-collapse.in .navbar-toggle .icon-bar,
+  .navbar.navbar-tlg .navbar-container .click-button .navbar-toggle .icon-bar {
+    background-color: #bfd732;
+  }
+  .navbar.navbar-tlg .navbar-container .navbar-collapse.click-button ul li {
+    border-top-style: dashed;
+    border-top-width: 1px;
+    border-color: #777;
+    color: purple;
+  }
+  .navbar.navbar-tlg .navbar-container #navbar.navbar-collapse.click-button ul li a {
+    color: #814497;
+  }
+  .navbar-brand-tlg {
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+  .navbar-brand-tlg img {
+    width: 45%;
+    margin-left: 0;
+  }
 }

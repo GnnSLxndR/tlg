@@ -887,3 +887,51 @@ and (orientation : portrait) {
     bottom: 220px;
   }
 }
+
+/* pasarlo a less */
+@media only screen and (max-width: 670px) {
+  .navbar.navbar-tlg .navbar-container #brand{
+    .green-logo{
+      display: none;
+    }
+  }
+
+  .navbar.navbar-tlg .navbar-container .navbar-collapse.in, .navbar.navbar-tlg .navbar-container .click-button{
+    background: white;
+    border: none;
+    .white-logo{
+      display: none;
+    }
+    #brand .green-logo{
+      display: block;
+    }
+    .navbar-toggle{
+      .icon-bar{
+        background-color: #bfd732;
+      }
+    }
+  }
+
+
+
+  .navbar.navbar-tlg .navbar-container .navbar-collapse.click-button ul li{
+    border-top-style: dashed;
+    border-top-width: 1px;
+    border-color: #777;
+    color: purple;
+  }
+  .navbar.navbar-tlg .navbar-container #navbar.navbar-collapse.click-button ul li a{
+    color: @color-purple;
+  }
+  .navbar-brand-tlg{
+    margin-top: -10px;
+    margin-left: 10px;
+    img{
+      width: 45%;
+      margin-left: 0;
+    }
+  }
+
+
+}
+
